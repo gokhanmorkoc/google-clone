@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+}
+
+.section__container {
+  display: flex;
+}
