@@ -12,7 +12,7 @@ const useFetch = (url, options) => {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            "app-id": "MJg47OQxEGTwunLzeonB",
+            "app-id": "620ee551211bee0eb2a917f1",
           },
         });
         const json = await res.json();
