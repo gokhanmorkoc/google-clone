@@ -11,7 +11,7 @@ const Inbox = ({ actionsVisible }) => {
   const [{ inbox, page, nav, removed, starred }, dispatch] = useStateValue();
   const history = useHistory(null);
   const [visible, setVisible] = useState(false);
-  const res = useFetch(`https://dummyapi.io/data/api/post?limit=${10}`);
+  const res = useFetch(`https://dummyapi.io/data/v1/post?limit=${page}`);
   const [activeEmail, setActiveEmail] = useState("UWdcOFTc7DfzOhI6LpI4");
   // const [isDeleted, setDeleted] = useState(false);
 
